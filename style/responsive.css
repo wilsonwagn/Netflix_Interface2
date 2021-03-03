@@ -9,7 +9,7 @@
         height: 40px;
     }
     header nav{
-        margin-right: 40px;
+        margin-right: 20px;
     }
     header .logo{
         margin-right: 25px;
@@ -20,6 +20,18 @@
     }
     .filme-principal .container{
         width: 80%;
+    }
+
+    .filme-principal{
+        font-size: 16px;
+        background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0, 0, 0, 0.5)100%), url('../img/2.gif');
+        height: 400px;
+        background-size: cover;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
     }
 }
 
